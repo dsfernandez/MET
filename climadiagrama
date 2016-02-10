@@ -1,0 +1,17 @@
+#climadiagrama WalterLieth
+# iki.dataclim package
+
+#matriz de datos
+
+climdata <- matrix(c(120,100,80,100,150,90,80,150,200,130,130,90, 
+                     27,27,27,28,29,30,30,30,30,30,29,27, 
+                     23,23,23,24,25,26,26,26,26,26,25,23, 
+                     23,23,23,24,25,26,26,26,26,26,25,23),
+                   nrow = 4,
+                   ncol = 12,
+                   byrow = TRUE)
+list(climdata)
+
+#climadiagrama W-L
+
+plotWalterLieth(climdata)
