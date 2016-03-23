@@ -2,6 +2,10 @@
 # iki.dataclim package
 
 #matriz de datos
+#primera línea: precipitación mensual, mm
+#segunda línea: promedio de temperaturas máximas de cada mes, oC
+#tercera línea: promedio de temperaturas mínimas de cada mes, oC
+#cuarta línea: temperaturas mínimas absolutas de cada mes, oC
 
 climdata <- matrix(c(120,100,80,100,150,90,80,150,200,130,130,90, 
                      27,27,27,28,29,30,30,30,30,30,29,27, 
